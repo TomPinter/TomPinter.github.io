@@ -113,6 +113,15 @@ a:hover { text-decoration: underline; }
 .cause h3 { font-size: 19px; font-weight: 700; color: #111; margin-bottom: 14px; }
 .cause p { margin-bottom: 13px; }
 .cause p:last-child { margin-bottom: 0; }
+.cause ul { margin: 0 0 13px 20px; }
+.cause ul li { margin-bottom: 6px; }
+.cause-label { font-weight: 700; color: var(--green-dark); font-size: 14px; text-transform: uppercase; letter-spacing: .6px; margin: 20px 0 6px; display: block; }
+
+/* Protocol steps */
+.protocol-step { display: flex; gap: 16px; margin-bottom: 22px; align-items: flex-start; }
+.step-num { background: var(--green); color: #fff; font-weight: 700; font-size: 14px; min-width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+.step-body h4 { font-size: 16px; font-weight: 700; color: #111; margin-bottom: 5px; }
+.step-body p { font-size: 15px; color: var(--text); margin-bottom: 0; line-height: 1.6; }
 
 /* ── Video embed ── */
 .video-wrapper {
